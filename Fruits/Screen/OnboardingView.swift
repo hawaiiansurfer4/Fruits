@@ -9,6 +9,8 @@ import SwiftUI
 
 struct OnboardingView: View {
     
+//    @AppStorage("isOnbaording") var isOnboarding: Bool = true
+    
     var fruits: [Fruit] = fruitsData
     
     var body: some View {
